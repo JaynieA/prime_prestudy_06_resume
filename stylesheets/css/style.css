@@ -96,6 +96,10 @@ a {
     background-color: #058d99;
     border-radius: 100%;
     color: #fff; }
+  .content.summary {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%; }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -163,7 +167,8 @@ a {
       padding-top: 30px;
       font-size: 16px; }
     .content.summary {
-      margin-top: 40px; } }
+      margin-top: 40px;
+      width: 100%; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h2 {
