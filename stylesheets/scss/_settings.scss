@@ -4,10 +4,7 @@ $mainFont: 'Open Sans', sans-serif;
 //Colors
 $mainTextColor: #515150;
 $backgroundColor: lighten(#b2b0b1, 15%);
-$shadow: #222;
-
-$lightGrey: #cccccc;
-$lightestGrey: lighten($lightGrey, 8%);
-$linkColor: #337ab7; //blue
-
+//$linkColor: #337ab7; //blue
+$linkColor: #058d99; //turquaise
+$hoverColor: lighten(#058d99, 10%); //turquaise
 $white: #fff;

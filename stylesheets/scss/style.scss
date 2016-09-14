@@ -12,13 +12,20 @@ html, body {
 	width: 90%;
 	margin-top: 30px;
 	min-height: 90vh;
-	//@include boxshadow($shadow);
 }
-.fa-lg {
-	transform: scale(1.2, 1.2);
+h1 {
+	font-size: 30px;
+	margin: 0px;
 }
 h2 {
-	margin: 0px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+a {
+	color: $linkColor;
+	&:hover {
+		color: $hoverColor;
+	}
 }
 
 
@@ -70,7 +77,7 @@ h2 {
 				margin-bottom: -1px;
 				border: 2px solid $white;
 				&:hover {
-					color: $lightestGrey;
+					color: $white;
 				}
 			}
 			&.active {
@@ -93,7 +100,7 @@ h2 {
 					color: $linkColor;
 				}
 				&:hover {
-					color: $lightestGrey;
+					color: $white;
 					background-color: $backgroundColor;
 				}
 			}
@@ -108,32 +115,30 @@ h2 {
 }
 
 
-
-
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) { 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) { 
-	h2 {
-		margin-top: 40px;
-	}
+	
 	.static {
 		.avatar {
 			width: 200px;
 			height: 200px;
-			margin-left: 40px;
 			margin-bottom: 10px;
 		}
 		.title {
 			text-align: left;
+			h1 {
+				margin-top: 40px;
+			}
 			hr {
 				float: left;
 				width: 230px;
 			}
-			h4 {
-				float: left;
+			h2 {
+				margin-top: 25px;
 			}
 		}
 		.contact {
@@ -150,9 +155,5 @@ h2 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) { 
-	.static {
-		.avatar {
-			margin-left: 90px;
-		}
-	}
+
 }
