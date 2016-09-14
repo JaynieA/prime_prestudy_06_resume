@@ -40,8 +40,8 @@ a {
 	border: 2px solid $backgroundColor;
 	border-radius: 4px 4px 0px 0px;
 	.avatar {
-		width: 150px;
-	    height: 150px;
+		width: 100px;
+	    height: 100px;
 	    border-radius: 100%;
 	    margin: 0 auto 0px;
 	    overflow: hidden;
@@ -146,6 +146,8 @@ a {
 		.avatar {
 			margin: 0 auto 20px;
 			margin-left: 20px;
+			width: 150px;
+			height: 150px;
 		}
 		.title {
 			h1 {
