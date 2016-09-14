@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$('.employment').hide();
+
 	function changeTabText() {
 		//Control tabs if window loaded on screen width <700 px
 		var win = $(this); //this = window
@@ -29,6 +31,30 @@ $(document).ready(function() {
 	 	});
 	}
 	
+	function changeTab() {
+		var tabs = $('.tabs');
+		var tab1 = $('#tab1-li');
+		var tab2 = $('#tab2-li');
+		var tab3 = $('#tab3-li');
+		var tab4 = $('#tab4-li');
+		var content = $('.content');
+		//Hide/show appropriate tab based on active class
+		$(tab1).click(function() {
+			$(tabs).removeClass('active');
+			$(this).addClass('active');
+			$(content).hide();
+			$('.summary').show();
+		});
+		$(tab2).click(function() {
+			$(tabs).removeClass('active');
+			$(this).addClass('active');
+			$(content).hide();
+			$('.employment').show();
+		});
+
+	}
+
 	changeTabText();
+	changeTab();
 });
 
