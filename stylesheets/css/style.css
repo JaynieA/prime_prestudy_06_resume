@@ -56,15 +56,19 @@ h2 {
           color: #e0e0e0; }
       #tabs .nav-tabs > li.active > a {
         background-color: transparent;
-        border-bottom: 2px solid #d8d7d7;
+        border-bottom: 3px solid #d8d7d7;
         margin-bottom: -2px;
-        color: blue; }
+        color: #337ab7; }
       #tabs .nav-tabs > li:first-of-type {
         margin-left: 10px; }
   #tabs .nav > li a:active, #tabs .nav > li a:focus {
-    color: blue; }
+    color: #337ab7; }
   #tabs .nav > li a:hover {
-    color: #e0e0e0; }
+    color: #e0e0e0;
+    background-color: #d8d7d7; }
+
+.content {
+  margin-top: 40px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
