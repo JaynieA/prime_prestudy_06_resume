@@ -51,6 +51,18 @@ $(document).ready(function() {
 			$(content).hide();
 			$('.employment').show();
 		});
+		$(tab3).click(function() {
+			$(tabs).removeClass('active');
+			$(this).addClass('active');
+			$(content).hide();
+			$('.development').show();
+		});
+		$(tab4).click(function() {
+			$(tabs).removeClass('active');
+			$(this).addClass('active');
+			$(content).hide();
+			$('.education').show();
+		});
 
 	}
 
