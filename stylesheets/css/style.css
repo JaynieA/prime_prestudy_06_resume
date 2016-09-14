@@ -31,8 +31,8 @@ h2 {
     text-align: center; }
     .static .title hr {
       width: 50%;
-      margin-top: 15px;
-      margin-bottom: 15px; }
+      margin-top: 10px;
+      margin-bottom: 5px; }
   .static .contact {
     margin-top: 10px;
     text-align: center; }
@@ -75,23 +75,28 @@ h2 {
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   h2 {
-    margin-top: 60px; }
+    margin-top: 40px; }
 
   .static .avatar {
     width: 200px;
     height: 200px;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-bottom: 10px; }
   .static .title {
     text-align: left; }
     .static .title hr {
       float: left;
       width: 230px; }
+    .static .title h4 {
+      float: left; }
   .static .contact {
     margin-top: 40px;
     text-align: left; }
     .static .contact p.indent {
       margin-left: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .static .avatar {
+    margin-left: 90px; } }
 
 /*# sourceMappingURL=style.css.map */
