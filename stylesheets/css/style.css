@@ -1,0 +1,92 @@
+html, body {
+  font-family: "Open Sans", sans-serif;
+  color: #515150; }
+
+.container {
+  background-color: #d8d7d7;
+  border-radius: 4px;
+  width: 90%;
+  margin-top: 30px;
+  min-height: 90vh; }
+
+.fa-lg {
+  transform: scale(1.2, 1.2); }
+
+h2 {
+  margin: 0px; }
+
+.static {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #d8d7d7;
+  border-radius: 4px 4px 0px 0px; }
+  .static .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    overflow: hidden; }
+  .static .title {
+    text-align: center; }
+    .static .title hr {
+      width: 50%;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+  .static .contact {
+    margin-top: 10px;
+    text-align: center; }
+    .static .contact p {
+      margin: 0 0 5px; }
+    .static .contact span {
+      margin-right: 10px; }
+
+#tabs {
+  margin-top: 10px;
+  margin-right: -15px;
+  margin-left: -15px; }
+  #tabs .nav-tabs {
+    border-bottom: 2px solid #fff; }
+    #tabs .nav-tabs > li {
+      margin-right: 5px; }
+      #tabs .nav-tabs > li a {
+        margin-bottom: -1px;
+        border: 2px solid #fff; }
+        #tabs .nav-tabs > li a:hover {
+          color: #e0e0e0; }
+      #tabs .nav-tabs > li.active > a {
+        background-color: transparent;
+        border-bottom: 2px solid #d8d7d7;
+        margin-bottom: -2px;
+        color: blue; }
+      #tabs .nav-tabs > li:first-of-type {
+        margin-left: 10px; }
+  #tabs .nav > li a:active, #tabs .nav > li a:focus {
+    color: blue; }
+  #tabs .nav > li a:hover {
+    color: #e0e0e0; }
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h2 {
+    margin-top: 60px; }
+
+  .static .avatar {
+    width: 200px;
+    height: 200px;
+    margin-left: 90px;
+    margin-bottom: 10px; }
+  .static .title {
+    text-align: left; }
+    .static .title hr {
+      float: left;
+      width: 230px; }
+  .static .contact {
+    margin-top: 40px;
+    text-align: left; }
+    .static .contact p.indent {
+      margin-left: 20px; } }
+/* Large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=style.css.map */
