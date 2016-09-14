@@ -51,14 +51,13 @@ a {
       .static .contact p.street {
         margin-top: -5px; }
     .static .contact span {
-      transform: scale(0.8, 0.8);
-      margin-right: 10px;
+      transform: scale(0.6, 0.6);
       padding: 8px;
       color: #fff;
       background-color: #058d99;
       border-radius: 100%; }
       .static .contact span:hover {
-        transform: scale(0.9, 0.9); }
+        transform: scale(0.7, 0.7); }
 
 #tabs {
   margin-top: 10px;
@@ -110,7 +109,15 @@ a {
     margin-top: 30px;
     text-align: left; }
     .static .contact p.indent {
-      margin-left: 40px; } }
+      margin-left: 40px; }
+    .static .contact span {
+      transform: scale(0.8, 0.8);
+      margin-right: 10px; }
+      .static .contact span:hover {
+        transform: scale(0.9, 0.9);
+        -webkit-transition: transform 0.1s ease;
+        /* Safari */
+        transition: transform 0.1s ease; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
