@@ -7,7 +7,8 @@ html, body {
   border-radius: 4px;
   width: 90%;
   margin-top: 30px;
-  min-height: 90vh; }
+  min-height: 90vh;
+  margin-bottom: 30px; }
 
 h1 {
   font-size: 20px; }
@@ -94,11 +95,13 @@ a {
   margin: 0 auto;
   margin-top: 10px;
   width: 90%; }
-  .content h3 span {
+  .content h3 span, .content h3 i {
     padding: 10px;
     background-color: #058d99;
     border-radius: 100%;
     color: #fff; }
+  .content h3 i {
+    padding: 8px 10px; }
   .content .bucket:last-of-type {
     margin-bottom: 40px; }
   .content .left-col h3 {
@@ -109,7 +112,7 @@ a {
     margin-bottom: 0px;
     font-size: 14px; }
   .content .right-col h4 {
-    padding-top: 22px;
+    padding-top: 10px;
     text-align: left; }
   .content .right-col hr {
     margin-top: 5px;
@@ -178,7 +181,7 @@ a {
     margin-top: 20px; }
     .content h3 {
       text-align: right; }
-      .content h3 span {
+      .content h3 span, .content h3 i {
         margin-right: 5px; }
     .content p {
       text-align: left;
