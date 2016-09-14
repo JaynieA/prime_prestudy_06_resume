@@ -22,7 +22,7 @@ $(document).ready(function() {
 	 		}
 	 		if (win.width() >= 700) { 
 	 			$(tab1).html("About Me");
-		 		$(tab2).html("Employment");
+		 		$(tab2).html("Employment History");
 		 		$(tab3).html("Professional Development");
 		 		$(tab4).html("Education");
 	 		}
