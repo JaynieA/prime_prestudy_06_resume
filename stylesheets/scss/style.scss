@@ -11,7 +11,7 @@ html, body {
 	border-radius: 4px;
 	width: 90%;
 	margin-top: 30px;
-	min-height: 80vh;
+	min-height: 90vh;
 }
 h1 {
 	font-size: 30px;
@@ -59,6 +59,7 @@ a {
 		margin-top: 10px;
 		text-align: center;
 		p {
+			font-size: 12px;
 			margin: 0 0 0px;
 			&.street {
 				margin-top: -5px;
@@ -144,6 +145,16 @@ a {
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) { 
+	.contact {
+		margin-left: 20px;
+		padding-right: 0px;
+		p {
+			text-align: left;
+			&.indent {
+					margin-left: 30px;
+				}
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -168,9 +179,10 @@ a {
 			}
 		}
 		.contact {
+			margin-left: 0px;
 			margin-top: 30px;
-			text-align: left;
 			p {
+				font-size: 14px;
 				&.indent {
 					margin-left: 40px;
 				}
@@ -208,5 +220,8 @@ a {
 
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) { 
+	.contact {
+		padding-left: 0px;
+	}
 
 }

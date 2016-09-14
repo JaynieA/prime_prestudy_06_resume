@@ -7,7 +7,7 @@ html, body {
   border-radius: 4px;
   width: 90%;
   margin-top: 30px;
-  min-height: 80vh; }
+  min-height: 90vh; }
 
 h1 {
   font-size: 30px;
@@ -48,6 +48,7 @@ a {
     margin-top: 10px;
     text-align: center; }
     .static .contact p {
+      font-size: 12px;
       margin: 0 0 0px; }
       .static .contact p.street {
         margin-top: -5px; }
@@ -98,6 +99,14 @@ a {
     color: #fff; }
 
 /* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact {
+    margin-left: 20px;
+    padding-right: 0px; }
+    .contact p {
+      text-align: left; }
+      .contact p.indent {
+        margin-left: 30px; } }
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .static .avatar {
@@ -114,10 +123,12 @@ a {
     .static .title h2 {
       margin-top: 25px; }
   .static .contact {
-    margin-top: 30px;
-    text-align: left; }
-    .static .contact p.indent {
-      margin-left: 40px; }
+    margin-left: 0px;
+    margin-top: 30px; }
+    .static .contact p {
+      font-size: 14px; }
+      .static .contact p.indent {
+        margin-left: 40px; }
     .static .contact span {
       transform: scale(0.8, 0.8);
       margin-right: 10px; }
@@ -140,5 +151,8 @@ a {
     .content.summary {
       margin-top: 40px; } }
 /* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
