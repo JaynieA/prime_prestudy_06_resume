@@ -100,8 +100,8 @@ a {
     background-color: #058d99;
     border-radius: 100%;
     color: #fff; }
-  .content h3 i {
-    padding: 8px 10px; }
+  .content h3 i.fa-rss {
+    padding: 10px 12px; }
   .content .bucket:last-of-type {
     margin-bottom: 40px; }
   .content .left-col h3 {
