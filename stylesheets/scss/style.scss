@@ -21,6 +21,9 @@ h2 {
 	font-size: 18px;
 	margin-top: 10px;
 }
+h3 {
+	font-size: 18px;
+}
 a {
 	color: $linkColor;
 	&:hover {
@@ -55,11 +58,22 @@ a {
 		margin-top: 10px;
 		text-align: center;
 		p {
-			margin: 0 0 5px;
+			margin: 0 0 0px;
+			&.street {
+				margin-top: -5px;
+			}
 
 		}
 		span {
+			transform: scale(0.8, 0.8);
 			margin-right: 10px;
+			padding: 8px;
+			color: $white;
+			background-color: $linkColor;
+			border-radius: 100%;
+			&:hover {
+				transform: scale(0.9, 0.9);
+			}
 		}
 	}
 }
@@ -142,11 +156,11 @@ a {
 			}
 		}
 		.contact {
-			margin-top: 40px;
+			margin-top: 30px;
 			text-align: left;
 			p {
 				&.indent {
-					margin-left: 20px;
+					margin-left: 40px;
 				}
 			}
 		}
