@@ -11,7 +11,7 @@ html, body {
 	border-radius: 4px;
 	width: 90%;
 	margin-top: 30px;
-	min-height: 90vh;
+	min-height: 80vh;
 }
 h1 {
 	font-size: 30px;
@@ -198,6 +198,10 @@ a {
 			text-align: left;
 			padding-top: 30px;
 			font-size: 16px;
+		}
+		&.summary {
+			margin-top: 40px;
+			//margin-bottom: 60px;
 		}
 	}
 }
