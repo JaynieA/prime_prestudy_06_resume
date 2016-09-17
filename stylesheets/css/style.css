@@ -18,7 +18,8 @@ h2 {
   margin-top: 10px; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  text-transform: uppercase; }
 
 a {
   color: #058d99; }
@@ -100,27 +101,29 @@ a {
     background-color: #058d99;
     border-radius: 100%;
     color: #fff; }
-  .content h3 i.fa-rss {
-    padding: 10px 12px; }
-  .content .bucket:last-of-type {
-    margin-bottom: 40px; }
-  .content .left-col h3 {
+  .content .bucket {
+    margin-bottom: 15px; }
+    .content .bucket:last-of-type {
+      margin-bottom: 40px; }
+  .content .left-col h4 {
+    text-align: right;
     margin-bottom: 0px; }
   .content .left-col p {
     text-align: right;
     padding-top: 0px;
     margin-bottom: 0px;
     font-size: 14px; }
-  .content .right-col h4 {
-    padding-top: 16px;
-    text-align: left; }
-  .content .right-col hr {
-    margin-top: 5px;
-    margin-bottom: 5px; }
-  .content .right-col p {
-    padding-top: 0px;
-    font-size: 14px;
-    margin-bottom: 0px; }
+  .content .right-col {
+    padding-left: 20px; }
+    .content .right-col h4 {
+      text-align: left; }
+    .content .right-col hr {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .content .right-col p {
+      padding-top: 0px;
+      font-size: 14px;
+      margin-bottom: 0px; }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -187,7 +190,7 @@ a {
       text-align: left;
       padding-top: 30px;
       font-size: 16px; }
-    .content.summary {
+    .content.resume {
       width: 100%; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

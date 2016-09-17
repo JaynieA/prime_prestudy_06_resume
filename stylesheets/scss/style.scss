@@ -24,6 +24,7 @@ h2 {
 }
 h3 {
 	font-size: 18px;
+	text-transform: uppercase;
 }
 a {
 	color: $linkColor;
@@ -140,15 +141,16 @@ a {
 			border-radius: 100%;
 			color: $white;
 		}
-		i.fa-rss {
-			padding: 10px 12px;
+	}
+	.bucket {
+		margin-bottom: 15px;
+		&:last-of-type {
+			margin-bottom: 40px;
 		}
 	}
-	.bucket:last-of-type {
-		margin-bottom: 40px;
-	}
 	.left-col {
-		h3 {
+		h4 {
+			text-align: right;
 			margin-bottom: 0px;
 		}
 		p {
@@ -159,8 +161,9 @@ a {
 		}
 	}
 	.right-col {
+		padding-left: 20px;
 		h4 {
-			padding-top: 16px;
+			//padding-top: 10px;
 			text-align: left;
 		}
 		hr {
@@ -268,7 +271,7 @@ a {
 			padding-top: 30px;
 			font-size: 16px;
 		}
-		&.summary {
+		&.resume {
 			//margin-top: 40px;
 			width: 100%;
 		}
