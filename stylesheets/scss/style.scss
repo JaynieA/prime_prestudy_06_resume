@@ -141,6 +141,20 @@ a {
 			border-radius: 100%;
 			color: $white;
 		}
+		&.section-head {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+	hr {
+		&.section-support {
+			border-top: 1px solid $linkColor;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		&.bottom {
+			margin-bottom: 20px;
+		}
 	}
 	.bucket {
 		margin-bottom: 15px;
@@ -268,7 +282,7 @@ a {
 		}
 		p {
 			text-align: left;
-			padding-top: 30px;
+			//padding-top: 30px;
 			font-size: 16px;
 		}
 		&.resume {

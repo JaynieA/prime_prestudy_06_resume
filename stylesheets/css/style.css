@@ -101,6 +101,15 @@ a {
     background-color: #058d99;
     border-radius: 100%;
     color: #fff; }
+  .content h3.section-head {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .content hr.section-support {
+    border-top: 1px solid #058d99;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .content hr.bottom {
+    margin-bottom: 20px; }
   .content .bucket {
     margin-bottom: 15px; }
     .content .bucket:last-of-type {
@@ -188,7 +197,6 @@ a {
         margin-right: 5px; }
     .content p {
       text-align: left;
-      padding-top: 30px;
       font-size: 16px; }
     .content.resume {
       width: 100%; } }
