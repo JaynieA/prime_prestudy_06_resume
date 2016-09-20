@@ -188,8 +188,30 @@ a {
 			text-align: left;
 		}
 	}
+}
 
-
+//Portfolio
+.portfolio {
+	button {
+		background-color: transparent;
+		border: 2px solid $white;
+		margin-top: 5px;
+		color: $linkColor;
+		padding: 4px 10px;
+		&:hover {
+			color: $white;
+			background-color: $linkColor;
+			border: 2px solid $linkColor;
+			-webkit-transition: background-color 0.3s ease, color 0.3s ease; /* Safari */
+    		transition: background-color 0.3s ease, color 0.3s ease;
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+	&.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+		outline: none;
+	}
 }
 
 
@@ -281,7 +303,6 @@ a {
 		}
 		p {
 			text-align: left;
-			//padding-top: 30px;
 			font-size: 16px;
 		}
 		.left-col {
@@ -293,6 +314,15 @@ a {
 			h4, p {
 				text-align: left;
 			}
+		}
+	}
+	.portfolio {
+		.bucket {
+			margin-top: 25px;
+			margin-bottom: 15px;
+		}
+		button {
+			float: left;
 		}
 	}
 }

@@ -133,6 +133,24 @@ a {
       margin-bottom: 0px;
       text-align: left; }
 
+.portfolio button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-top: 5px;
+  color: #058d99;
+  padding: 4px 10px; }
+  .portfolio button:hover {
+    color: #fff;
+    background-color: #058d99;
+    border: 2px solid #058d99;
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    /* Safari */
+    transition: background-color 0.3s ease, color 0.3s ease; }
+  .portfolio button:visited {
+    color: #fff; }
+.portfolio.btn.active.focus, .portfolio .btn.active:focus, .portfolio .btn.focus, .portfolio .btn:active.focus, .portfolio .btn:active:focus, .portfolio .btn:focus {
+  outline: none; }
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .static .avatar {
@@ -201,7 +219,13 @@ a {
     .content .left-col h4, .content .left-col p {
       text-align: right; }
     .content .right-col h4, .content .right-col p {
-      text-align: left; } }
+      text-align: left; }
+
+  .portfolio .bucket {
+    margin-top: 25px;
+    margin-bottom: 15px; }
+  .portfolio button {
+    float: left; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h2 {
