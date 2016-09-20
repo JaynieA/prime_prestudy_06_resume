@@ -161,11 +161,11 @@ a {
 	}
 	.left-col {
 		h4 {
-			text-align: right;
+			text-align: left;
 			margin-bottom: 0px;
 		}
 		p {
-			text-align: right;
+			text-align: left;
 			padding-top: 0px;
 			margin-bottom: 0px;
 			font-size: 14px;
@@ -175,7 +175,7 @@ a {
 		padding-left: 20px;
 		h4 {
 			//padding-top: 10px;
-			text-align: left;
+			text-align: center;
 		}
 		hr {
 			margin-top: 5px;
@@ -185,6 +185,7 @@ a {
 			padding-top: 0px;
 			font-size: 14px;
 			margin-bottom: 0px;
+			text-align: left;
 		}
 	}
 
@@ -272,7 +273,7 @@ a {
 	.content {
 		margin-top: 20px;
 		h3 {
-			text-align: right;
+			text-align: left;
 			span, i {
 				margin-right: 5px;
 			}
@@ -285,6 +286,16 @@ a {
 		&.resume {
 			//margin-top: 40px;
 			width: 100%;
+		}
+		.left-col {
+			h4, p {
+				text-align: right;
+			}
+		}
+		.right-col {
+			h4, p {
+				text-align: left;
+			}
 		}
 	}
 }

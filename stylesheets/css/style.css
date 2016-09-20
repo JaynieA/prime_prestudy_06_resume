@@ -113,24 +113,25 @@ a {
     .content .bucket:last-of-type {
       margin-bottom: 40px; }
   .content .left-col h4 {
-    text-align: right;
+    text-align: left;
     margin-bottom: 0px; }
   .content .left-col p {
-    text-align: right;
+    text-align: left;
     padding-top: 0px;
     margin-bottom: 0px;
     font-size: 14px; }
   .content .right-col {
     padding-left: 20px; }
     .content .right-col h4 {
-      text-align: left; }
+      text-align: center; }
     .content .right-col hr {
       margin-top: 5px;
       margin-bottom: 5px; }
     .content .right-col p {
       padding-top: 0px;
       font-size: 14px;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      text-align: left; }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -190,14 +191,18 @@ a {
   .content {
     margin-top: 20px; }
     .content h3 {
-      text-align: right; }
+      text-align: left; }
       .content h3 span, .content h3 i {
         margin-right: 5px; }
     .content p {
       text-align: left;
       font-size: 16px; }
     .content.resume {
-      width: 100%; } }
+      width: 100%; }
+    .content .left-col h4, .content .left-col p {
+      text-align: right; }
+    .content .right-col h4, .content .right-col p {
+      text-align: left; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h2 {
