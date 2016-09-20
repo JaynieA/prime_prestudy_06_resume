@@ -126,7 +126,8 @@ a {
       text-align: center; }
     .content .right-col hr {
       margin-top: 5px;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      width: 50%; }
     .content .right-col p {
       padding-top: 0px;
       font-size: 14px;
@@ -227,7 +228,6 @@ a {
     .content .right-col p:first-of-type {
       clear: both; }
     .content .right-col hr {
-      width: 50%;
       float: left;
       margin-top: 0px;
       margin-bottom: 8px; }
