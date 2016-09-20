@@ -148,6 +148,8 @@ a {
     transition: background-color 0.3s ease, color 0.3s ease; }
   .portfolio button:visited {
     color: #fff; }
+.portfolio .btn:focus {
+  color: #058d99; }
 .portfolio.btn.active.focus, .portfolio .btn.active:focus, .portfolio .btn.focus, .portfolio .btn:active.focus, .portfolio .btn:active:focus, .portfolio .btn:focus {
   outline: none; }
 
