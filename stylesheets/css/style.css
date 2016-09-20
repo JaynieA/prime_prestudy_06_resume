@@ -189,7 +189,8 @@ a {
         transition: transform 0.1s ease; }
 
   .content {
-    margin-top: 20px; }
+    margin-top: 20px;
+    width: 100%; }
     .content h3 {
       text-align: left; }
       .content h3 span, .content h3 i {
@@ -197,8 +198,6 @@ a {
     .content p {
       text-align: left;
       font-size: 16px; }
-    .content.resume {
-      width: 100%; }
     .content .left-col h4, .content .left-col p {
       text-align: right; }
     .content .right-col h4, .content .right-col p {
