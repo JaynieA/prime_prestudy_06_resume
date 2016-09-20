@@ -232,7 +232,14 @@ a {
     margin-top: 25px;
     margin-bottom: 15px; }
   .portfolio button {
-    float: left; } }
+    float: left;
+    margin-top: 15px; }
+  .portfolio h5 {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px; }
+  .portfolio h4 {
+    margin-bottom: 0px; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h2 {
