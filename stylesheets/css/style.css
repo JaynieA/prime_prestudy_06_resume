@@ -101,10 +101,8 @@ a {
 
 /*Content*/
 .content {
-  margin-top: 0;
-  margin-bottom: 40px;
   text-align: center;
-  margin: 10px auto 0;
+  margin: 10px auto 0 auto;
   width: 90%; }
   .content h3 i,
   .content h3 span {
@@ -113,12 +111,10 @@ a {
     border-radius: 100%;
     color: #fff; }
   .content h3.section-head {
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    margin: 10px 0 10px; }
   .content hr.section-support {
     border-top: 1px solid #058d99;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    margin: 0 auto 20px auto; }
   .content .bucket {
     margin-bottom: 15px; }
     .content .bucket:last-of-type {
@@ -134,11 +130,9 @@ a {
   .content .right-col {
     padding-left: 20px; }
     .content .right-col h4 {
-      /*padding-top: 10px;*/
       text-align: center; }
     .content .right-col hr {
-      margin-top: 5px;
-      margin-bottom: 5px;
+      margin: 5px auto 5px auto;
       width: 50%; }
     .content .right-col p {
       padding-top: 0;
@@ -152,14 +146,13 @@ a {
   border: 2px solid #fff;
   margin-top: 5px;
   color: #058d99;
-  padding: 4px 10px; }
+  padding: 4px 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   .portfolio button:hover {
     color: #fff;
     background-color: #058d99;
-    border: 2px solid #058d99;
-    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
-    /* Safari */
-    transition: background-color 0.3s ease, color 0.3s ease; }
+    border: 2px solid #058d99; }
   .portfolio button:visited {
     color: #fff; }
 .portfolio .btn:focus {
@@ -178,13 +171,10 @@ a {
     margin: 0 auto 20px 20px;
     width: 150px;
     height: 150px; }
-  .static .title {
-    /*margin-top: 10px;*/ }
-    .static .title h1 {
-      margin-top: 30px; }
+  .static .title h1 {
+    margin-top: 30px; }
   .static .contact {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0 0 20px;
     padding-right: 0; }
     .static .contact p {
       text-align: left; }
@@ -213,8 +203,7 @@ a {
     .static .title h2 {
       margin-top: 25px; }
   .static .contact {
-    margin-left: 0;
-    margin-top: 30px; }
+    margin: 30px 0 0 0; }
     .static .contact p {
       font-size: 14px; }
       .static .contact p.indent {
@@ -222,16 +211,14 @@ a {
     .static .contact span {
       -webkit-transform: scale(0.8, 0.8);
       transform: scale(0.8, 0.8);
-      margin-right: 10px; }
+      margin-right: 10px;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      transition: -webkit-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      transition: transform 0.1s ease, -webkit-transform 0.1s ease; }
       .static .contact span:hover {
         -webkit-transform: scale(0.9, 0.9);
-        transform: scale(0.9, 0.9);
-        -webkit-transition: transform 0.1s ease;
-        /* Safari */
-        -webkit-transition: -webkit-transform 0.1s ease;
-        transition: -webkit-transform 0.1s ease;
-        transition: transform 0.1s ease;
-        transition: transform 0.1s ease, -webkit-transform 0.1s ease; }
+        transform: scale(0.9, 0.9); }
 
   .content {
     margin-top: 20px;
@@ -256,19 +243,16 @@ a {
       clear: both; }
     .content .right-col hr {
       float: left;
-      margin-top: 0;
-      margin-bottom: 8px; }
+      margin: 0 0 8px; }
 
   .portfolio .bucket {
-    margin-top: 25px;
-    margin-bottom: 15px; }
+    margin: 25px auto 15px auto; }
   .portfolio button {
     float: left;
-    margin-top: 15px; }
+    margin-top: 10px; }
   .portfolio h5 {
     text-align: left;
-    margin-top: 5px;
-    margin-bottom: 10px; }
+    margin: 5px 0 10px 0; }
   .portfolio h4 {
     margin-bottom: 0; } }
 /* Large devices (large desktops, 1200px and up) */
