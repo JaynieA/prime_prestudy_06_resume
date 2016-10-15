@@ -1,14 +1,17 @@
-html, body {
+body,
+html {
   font-family: "Open Sans", sans-serif;
   color: #515150; }
 
+/*Global Styles*/
 .container {
   background-color: #d8d7d7;
   border-radius: 4px;
   width: 90%;
   margin-top: 30px;
   min-height: 90vh;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  box-sizing: border-box; }
 
 h1 {
   font-size: 20px; }
@@ -22,81 +25,89 @@ h3 {
   text-transform: uppercase; }
 
 a {
-  color: #058d99; }
+  color: #058d99;
+  /*transition: color 0.2s ease;*/
+  /*Fix this area- what does it apply to?*/ }
   a:hover {
     color: #07bbca; }
 
+/*Static Styles*/
 .static {
   background-color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0 30px 0;
   border: 2px solid #d8d7d7;
-  border-radius: 4px 4px 0px 0px; }
+  border-radius: 4px 4px 0 0; }
   .static .avatar {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin: 0 auto 0px;
+    margin: 0 auto;
     overflow: hidden; }
   .static .title {
     text-align: center; }
     .static .title hr {
       width: 50%;
-      margin-top: 10px;
-      margin-bottom: 5px;
+      margin: 10px auto 5px auto;
       border-top: 1px solid #d8d7d7; }
   .static .contact {
     margin-top: 10px;
     text-align: center; }
     .static .contact p {
       font-size: 12px;
-      margin: 0 0 0px; }
+      margin: 0; }
       .static .contact p.street {
         margin-top: -5px; }
     .static .contact span {
+      -webkit-transform: scale(0.6, 0.6);
       transform: scale(0.6, 0.6);
       padding: 8px;
       color: #fff;
       background-color: #058d99;
       border-radius: 100%; }
       .static .contact span:hover {
+        -webkit-transform: scale(0.7, 0.7);
         transform: scale(0.7, 0.7); }
 
+/*Tabs*/
 #tabs {
-  margin-top: 10px;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin: 10px -15px 0 -15px; }
   #tabs .nav-tabs {
     border-bottom: 2px solid #fff; }
     #tabs .nav-tabs > li {
-      margin-right: 5px; }
+      margin-right: 5px;
+      box-sizing: border-box;
+      height: 43px; }
       #tabs .nav-tabs > li a {
         margin-bottom: -1px;
-        border: 2px solid #fff; }
+        border: 2px solid #fff;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease; }
         #tabs .nav-tabs > li a:hover {
           color: #fff; }
       #tabs .nav-tabs > li.active > a {
         background-color: transparent;
-        border-bottom: 3px solid #d8d7d7;
-        margin-bottom: -2px;
+        border-bottom-color: #d8d7d7;
         color: #058d99; }
       #tabs .nav-tabs > li:first-of-type {
         margin-left: 10px; }
-  #tabs .nav > li a:active, #tabs .nav > li a:focus {
-    color: #058d99; }
-  #tabs .nav > li a:hover {
-    color: #fff;
-    background-color: #d8d7d7;
+  #tabs .nav > li a {
+    -webkit-transition: color 0.2s ease;
     transition: color 0.2s ease; }
+    #tabs .nav > li a:active, #tabs .nav > li a:focus {
+      color: #058d99; }
+    #tabs .nav > li a:hover {
+      color: #fff;
+      background-color: #d8d7d7; }
 
+/*Content*/
 .content {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 40px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 10px;
+  margin: 10px auto 0;
   width: 90%; }
-  .content h3 span, .content h3 i {
+  .content h3 i,
+  .content h3 span {
     padding: 10px;
     background-color: #058d99;
     border-radius: 100%;
@@ -106,7 +117,7 @@ a {
     margin-bottom: 10px; }
   .content hr.section-support {
     border-top: 1px solid #058d99;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px; }
   .content .bucket {
     margin-bottom: 15px; }
@@ -114,26 +125,28 @@ a {
       margin-bottom: 40px; }
   .content .left-col h4 {
     text-align: left;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
   .content .left-col p {
     text-align: left;
-    padding-top: 0px;
-    margin-bottom: 0px;
+    padding-top: 0;
+    margin-bottom: 0;
     font-size: 14px; }
   .content .right-col {
     padding-left: 20px; }
     .content .right-col h4 {
+      /*padding-top: 10px;*/
       text-align: center; }
     .content .right-col hr {
       margin-top: 5px;
       margin-bottom: 5px;
       width: 50%; }
     .content .right-col p {
-      padding-top: 0px;
+      padding-top: 0;
       font-size: 14px;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       text-align: left; }
 
+/*Portfolio*/
 .portfolio button {
   background-color: transparent;
   border: 2px solid #fff;
@@ -151,22 +164,28 @@ a {
     color: #fff; }
 .portfolio .btn:focus {
   color: #058d99; }
-.portfolio.btn.active.focus, .portfolio .btn.active:focus, .portfolio .btn.focus, .portfolio .btn:active.focus, .portfolio .btn:active:focus, .portfolio .btn:focus {
+.portfolio.btn.active.focus,
+.portfolio .btn.active:focus,
+.portfolio .btn.focus,
+.portfolio .btn:active.focus,
+.portfolio .btn:active:focus,
+.portfolio .btn:focus {
   outline: none; }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .static .avatar {
-    margin: 0 auto 20px;
-    margin-left: 20px;
+    margin: 0 auto 20px 20px;
     width: 150px;
     height: 150px; }
-  .static .title h1 {
-    margin-top: 30px; }
+  .static .title {
+    /*margin-top: 10px;*/ }
+    .static .title h1 {
+      margin-top: 30px; }
   .static .contact {
     margin-top: 20px;
     margin-left: 20px;
-    padding-right: 0px; }
+    padding-right: 0; }
     .static .contact p {
       text-align: left; }
       .static .contact p.indent {
@@ -175,7 +194,7 @@ a {
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 30px;
-    margin: 0px; }
+    margin: 0; }
 
   h2 {
     font-size: 18px; }
@@ -194,42 +213,50 @@ a {
     .static .title h2 {
       margin-top: 25px; }
   .static .contact {
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 30px; }
     .static .contact p {
       font-size: 14px; }
       .static .contact p.indent {
         margin-left: 40px; }
     .static .contact span {
+      -webkit-transform: scale(0.8, 0.8);
       transform: scale(0.8, 0.8);
       margin-right: 10px; }
       .static .contact span:hover {
+        -webkit-transform: scale(0.9, 0.9);
         transform: scale(0.9, 0.9);
         -webkit-transition: transform 0.1s ease;
         /* Safari */
-        transition: transform 0.1s ease; }
+        -webkit-transition: -webkit-transform 0.1s ease;
+        transition: -webkit-transform 0.1s ease;
+        transition: transform 0.1s ease;
+        transition: transform 0.1s ease, -webkit-transform 0.1s ease; }
 
   .content {
     margin-top: 20px;
     width: 100%; }
     .content h3 {
       text-align: left; }
-      .content h3 span, .content h3 i {
+      .content h3 i,
+      .content h3 span {
         margin-right: 5px; }
     .content p {
       text-align: left;
       font-size: 16px; }
     .content hr.section-support {
       width: 90%; }
-    .content .left-col h4, .content .left-col p {
+    .content .left-col h4,
+    .content .left-col p {
       text-align: right; }
-    .content .right-col h4, .content .right-col p {
+    .content .right-col h4,
+    .content .right-col p {
       text-align: left; }
     .content .right-col p:first-of-type {
       clear: both; }
     .content .right-col hr {
       float: left;
-      margin-top: 0px;
+      margin-top: 0;
       margin-bottom: 8px; }
 
   .portfolio .bucket {
@@ -243,13 +270,13 @@ a {
     margin-top: 5px;
     margin-bottom: 10px; }
   .portfolio h4 {
-    margin-bottom: 0px; } }
+    margin-bottom: 0; } }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   h2 {
     font-size: 18px; }
 
   .contact {
-    padding-left: 0px; } }
+    padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
