@@ -9,6 +9,7 @@ html {
 /*Global Styles*/
 
 .container {
+	display: none;
 	background-color: $backgroundColor;
 	border-radius: 4px;
 	width: 90%;
@@ -146,6 +147,25 @@ a {
 				}
 			}
 		}
+	}
+}
+/*Button*/
+.intro_btn {
+	margin-top: 20vh;
+	background-color: $linkColor;
+	border: 2px solid $white;
+	color: $white;
+	padding: 8px 10px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.2s ease;;
+	&:hover,
+	&:active,
+	&:focus,
+	&:focus:active {
+		border: 2px solid $linkColor;
+		color: $linkColor;
+		background-color: $white;
+		font-weight: bold;
 	}
 }
 /*Content*/

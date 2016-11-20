@@ -5,6 +5,7 @@ html {
 
 /*Global Styles*/
 .container {
+  display: none;
   background-color: #d8d7d7;
   border-radius: 4px;
   width: 90%;
@@ -98,6 +99,21 @@ a {
     #tabs .nav > li a:hover {
       color: #fff;
       background-color: #d8d7d7; }
+
+/*Button*/
+.intro_btn {
+  margin-top: 20vh;
+  background-color: #058d99;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.2s ease; }
+  .intro_btn:hover, .intro_btn:active, .intro_btn:focus, .intro_btn:focus:active {
+    border: 2px solid #058d99;
+    color: #058d99;
+    background-color: #fff;
+    font-weight: bold; }
 
 /*Content*/
 .content {
